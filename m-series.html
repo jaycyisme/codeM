@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeM | m Series</title>
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- GG FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+</head>
+<body class="has-scrollbar">
+    <!-- HEADER -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <a href="#" class="header-logo">
+                    <img 
+                    src="./assets/images/logo.png" 
+                    alt="GTA Logo"
+                    width="150"
+                    height="150"
+                    >
+                </a>
+
+                <div class="header-action">
+                    
+                    <a href="#" class="discord-box">
+                        <ion-icon name="logo-discord"></ion-icon>
+                        <span>Discord</span>
+                    </a>
+
+                    <div class="dropdown">
+                        <button class="dropdown-toggle">AUD</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">AUD</a>
+                            <a href="#" class="dropdown-item">BRL</a>
+                            <a href="#" class="dropdown-item">CAD</a>
+                            <a href="#" class="dropdown-item">DKK</a>
+                            <a href="#" class="dropdown-item">EUR</a>
+                            <a href="#" class="dropdown-item">NOK</a>
+                            <a href="#" class="dropdown-item">NZD</a>
+                            <a href="#" class="dropdown-item">PLN</a>
+                            <a href="#" class="dropdown-item">GBP</a>
+                            <a href="#" class="dropdown-item">SEK</a>
+                            <a href="#" class="dropdown-item">USD</a>
+                        </div>
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </div>
+
+                    <div class="cart">
+                        <p class="count">1</p>
+                        <div class="cart-action">
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="caret-down-outline"></ion-icon>
+                        </div>
+
+                        <div class="dropdown-cart">
+                            <div class="item">
+                                <div class="drop-item">
+                                    <div class="item-name">Premium Plus 1 Month</div>
+                                    <div class="item-price">47.72 AUD</div>
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </div>
+    
+                                <div class="drop-item">
+                                    <div class="item-name">Premium Plus 1 Month</div>
+                                    <div class="item-price">47.72 AUD</div>
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </div>
+                            </div>
+
+                            <div class="item-footer">
+                                <p>TOTAL: 47.72 AUD</p>
+                                <a href="https://www.youtube.com/watch?v=4nO48pMQxvk"><button class="checkout-btn">Checkout</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-account">
+                        <div class="account-action">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                            <p>JayCyisme</p>
+                            <ion-icon name="caret-down-outline"></ion-icon>
+                        </div>
+
+                        <div class="dropdown-user">
+                            <p>Logout</p>
+                            <ion-icon name="exit-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="desktop-navigation-menu">
+            <div class="container">
+                <ul class="desktop-menu-category-list">
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">HOME</a>
+                    </li>
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">ALL IN ONE</a>
+                    </li>
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">SUBSCRIPTION</a>
+                    </li>
+                    
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">VENICE</a>
+                    </li>
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">BLVCK</a>
+                    </li>
+                    <li class="menu-category" id="m-series-menu">
+                        <a href="#" class="menu-title">M SERIES</a>
+
+                        <div class="dropdown-panel">
+                            <div class="overlay"></div>
+                            <ul class="dropdown-panel-list">
+                                <li class="panel-list-item">
+                                    <a href="#">M SERIES</a>
+                  
+                                  <li class="panel-list-item">
+                                    <a href="#">ESSENTIALS</a>
+                                  </li>
+                  
+                                  <li class="panel-list-item">
+                                    <a href="#">JOBS</a>
+                                  </li>
+                  
+                                  <li class="panel-list-item">
+                                    <a href="#">HUD'S</a>
+                                  </li>
+                  
+                                  <li class="panel-list-item">
+                                    <a href="#">ADMINISTRATION</a>
+                                  </li>
+                  
+                                  <li class="panel-list-item">
+                                    <a href="#">
+                                      <img src="./assets/images/admin-web-panel.png" alt="headphone collection" width="250"
+                                        height="119">
+                                    </a>
+                                  </li>
+                            </ul>
+                        </div>
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </li>
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">X SERIES</a>
+                    </li>
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">GIFT CARDS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="container">
+                <div class="content-main">
+                    <h1>m Series</h1>
+
+                    <p style="text-align: start; margin-bottom: 2rem;">Check mSeries Categories</p>  
+
+                    <a href="https://codem.tebex.io/category/subscription"><img src="./assets/images/mseries/aio.png" alt="" class="premium-img"></a>
+
+                    <div class="banner banner-top">
+                        <img class="banner-img" src="./assets/images/mseries/essential-category.png" alt="">
+                        <img class="banner-img" src="./assets/images/mseries/jobs-category.png" alt="">
+                    </div>
+
+                    <div class="banner banner-bottom">
+                        <img class="banner-img" src="./assets/images/mseries/hud-category.png" alt="">
+                        <img class="banner-img" src="./assets/images/mseries/administration-category.png" alt="">
+                    </div>
+
+                    <p style="text-align: start; margin-bottom: 2rem;">No packages to display in this category.</p>  
+
+                </div>
+
+                <div class="sidebar">
+                    <div class="card get-all-codem-scripts">
+                        <div class="cart-content">
+                            <h2>GET ALL CODEM SCRIPTS</h2>
+                            <div class="notice-box">
+                                <div class="notice">Click for more details</div>
+                                <img class="card-banner" src="./assets/images/sidebar/premium-1-month.jpg" alt="">
+                            </div>
+                            <div class="title">Premium Plus 1 Month</div>
+                            <div class="price-box">
+                            <del>73.45 AUD</del>
+                            <span>47.74 AUD</span>
+                        </div>
+                        <a href="#">
+                            <button class="subscribe-btn">
+                                <ion-icon name="cart-outline"></ion-icon>
+                                <span>Subscribe</span>
+                            </button>
+                        </a>
+                        </div>
+                    </div>
+
+
+                    <div class="card spring-sales">
+                        <h2>SPRING SALES</h2>
+                        <div class="title">EVERYTHING 35% OFF</div>
+                        <img class="card-banner" src="./assets/images/sidebar/35-sale.jpg" alt="">
+                    </div>
+
+                    <div class="card demand">
+                        <h2>NEED CLOTHES, PEDS OR CINEMATICS ?</h2>
+                        <p>Check out <span class="span-purple">CodeM Studio</span> !</p>
+                        <img class="card-banner" src="./assets/images/sidebar/codem-studio.png" alt="">
+                    </div>
+
+                    <div class="card codem-discord">
+                        <h2>CODEM DISCORD</h2>
+                        <p>Please join our discord server to get notified from updates and scripts. Also has 6/24 Ticket system for issues.</p>
+                        <a href="#"><p>https://discord.gg/zj3QsUfxWs</p></a>
+                    </div>
+
+                    <div class="card zap-hosting">
+                        <h2>ZAP HOSTING</h2>
+                        <img src="./assets/images/sidebar/zap-hosting.png" alt="" class="card-banner">
+                    </div>
+
+                    <div class="card support-schedule">
+                        <h2>SUPPORT SCHEDULE</h2>
+                        <p>We have 6/24 ticket system in our discord server. Support Schedule is 6 days in a week. Sunday is off days for supports. Thank you for your understanding.</p>
+                    </div>
+
+                    <div class="card refunds-and-return">
+                        <h2>REFUNDS AND RETURNS</h2>
+                        <p>With in the  <span class="span-bold">3 days of the payments</span> we can refund your assets ( ! Open Source assets cant be refunded at  anytime ) . If you transfer your asset to someone we cant refund it. Thank you for choosing CodeM!</p>
+                    </div>
+
+                    <div class="card top-customer">
+                        <h2>TOP CUSTOMER</h2>
+                        <p>No recent top purchaser to display.</p>
+                    </div>
+
+                    <div class="card recent-payments">
+                        <h2>RECENT PAYMENTS</h2>
+                        <div class="recent-user">
+                            <img src="./assets/images/sidebar/recent-1.png" alt="" class="user-avatar">
+                            <div class="user-info">
+                                <div class="username">madenglishman - mAdmin Panel</div>
+                                <div class="payment-date">Today 23:44</div>
+                            </div>
+                        </div>
+
+                        <div class="recent-user">
+                            <img src="./assets/images/sidebar/recent-2.jpg" alt="" class="user-avatar">
+                            <div class="user-info">
+                                <div class="username">klaus88 - mGarage</div>
+                                <div class="payment-date">Today 23:23</div>
+                            </div>
+                        </div>
+
+                        <div class="recent-user">
+                            <img src="./assets/images/sidebar/recent-3.png" alt="" class="user-avatar">
+                            <div class="user-info">
+                                <div class="username">BattlezoneCZ - mAdmin Panel</div>
+                                <div class="payment-date">Today 23:01</div>
+                            </div>
+                        </div>
+
+                        <div class="recent-user">
+                            <img src="./assets/images/sidebar/recent-4.png" alt="" class="user-avatar">
+                            <div class="user-info">
+                                <div class="username">BeoItachi - mBossmenu</div>
+                                <div class="payment-date">Today 22:55</div>
+                            </div>
+                        </div>
+
+                        <div class="recent-user">
+                            <img src="./assets/images/sidebar/recent-5.png" alt="" class="user-avatar">
+                            <div class="user-info">
+                                <div class="username">BrianOConnor23 - mHUD AIO ESX QB</div>
+                                <div class="payment-date">Today 22:36</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright" style="text-align: start; margin-bottom: 2rem; color: #A6A8B5;">© Copyright 2024 CodeM | Powered by <a class="tebex-footer" href="#">Tebex</a></p>  
+
+        <div class="box-link">
+            <a href="">Terms |</a>
+            <a href="">Privacy |</a>
+            <a href="">Impressum</a>
+        </div>
+
+        <div class="final-foot">
+            <a href="https://www.tebex.io/" class="tebex-logo">
+                <img src="./assets/images/tebex.png" alt="">
+            </a>
+            <p>This website and its checkout process is owned & operated by Tebex Limited, who handle 
+                product fulfilment, billing support and refunds.</p>
+            
+            <div class="relevant-link">
+                <a href="#">Impressum</a>
+                <a href="#"> Terms & Conditions</a>
+                <a href="#"> Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- IONICON LINK -->
+    <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+</body>
+</html>
